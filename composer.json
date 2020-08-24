@@ -1,0 +1,29 @@
+{
+  "name": "votong/cloudflare-bypass",
+  "description": "A library for helping bypass the cloudflare UAM page.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vo Tong",
+      "email": "votong175@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-bcmath": "*"
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "CloudflareBypass\\": "src/main"
+    }
+  }
+}
